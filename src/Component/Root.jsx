@@ -4,7 +4,7 @@ import Navber from './Navber'
 
 const Root = () => {
     return (
-        <div>
+        <div className="font-poppins">
             <Navber></Navber>
             <Outlet></Outlet>
         </div>

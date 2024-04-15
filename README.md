@@ -1,8 +1,12 @@
-# React + Vite
+* moment for time
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* react fast marque
 
-Currently, two official plugins are available:
+* react icons
+* git remote set-url origin 
+* git remote -v
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+* const location = useLocation();
+* console.log(location.pathname);
+<Navigate state=(location.pathname) to='/login'>

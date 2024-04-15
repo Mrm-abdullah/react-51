@@ -1,11 +1,9 @@
 import { Link , useNavigate} from "react-router-dom";
-import auth from "../Firebase/Firebase.config";
 import { useState } from "react";
 import { useContext } from "react";
 import { AuthContext } from "./AuthProvider";
 
 const Login = () => {
-    const [user, setUser] = useState(null)
     const {signInUser} = useContext(AuthContext)
 
 
@@ -17,6 +15,11 @@ const Login = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email, password);
+
+        console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget)
+        console.log(form);
+        console.log(form.get('password'));
 
         setError('')
         setSuccess('')
